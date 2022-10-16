@@ -3,10 +3,12 @@ body {
     padding: 20px;
 }
 
+/* To give more padding at the end of each section */
 section {
     margin-bottom: 40px;
 }
 
+/* Personal information section uses Description List */
 dl {
     display: grid;
     grid-template-columns: max-content auto;
@@ -20,6 +22,7 @@ dd {
     grid-column-start: 2;
 }
 
+/* Provide border for skillset table */
 table {
     border-collapse: collapse;
 }
@@ -27,4 +30,10 @@ table {
 td {
     border: 2px solid #dddddd;
     padding: 8px;
+}
+
+/* Make images mobile friendly */
+img {
+    max-width: 100%;
+    display: block;
 }
