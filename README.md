@@ -1,2 +1,4 @@
 # sudhans.github.io
-Vanilla HTML5 + CSS
+Online Resume with vanilla HTML5 and basic CSS
+
+Browse my resume @ https://sudhans.github.io
