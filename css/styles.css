@@ -1,0 +1,30 @@
+body {
+    overflow: visible !important;
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+dl {
+    display: grid;
+    grid-template-columns: max-content auto;
+}
+
+dt {
+    grid-column-start: 1;
+}
+
+dd {
+    grid-column-start: 2;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+td {
+    border: 2px solid #dddddd;
+    padding: 8px;
+}
