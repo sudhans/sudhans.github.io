@@ -1,6 +1,8 @@
 body {
     overflow: visible !important;
     padding: 20px;
+    font-size: large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 /* To give more padding at the end of each section */
@@ -62,4 +64,21 @@ ul, li.images {
     font-weight: bold;
     background-color: green;
     margin-top: 8px;
+  }
+
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+  }
+  
+  .card-name {
+    color: grey;
+    font-size: 18px;
+  }
+
+  .card-image {
+    width: 100%;
+    height: 60%;
   }
