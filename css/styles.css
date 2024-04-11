@@ -44,3 +44,22 @@ ul, li.images {
     list-style: none;
     display: inline;
 }
+
+.tag-cloud {
+    display: inline-block;
+    color: white;
+    padding: 8px 20px;
+    border-radius: 25px;
+    background-color: #2196F3;
+    margin-top: 8px;
+  }
+
+  .tag-cloud-bold {
+    display: inline-block;
+    color: white;
+    padding: 8px 20px;
+    border-radius: 25px;
+    font-weight: bold;
+    background-color: green;
+    margin-top: 8px;
+  }
